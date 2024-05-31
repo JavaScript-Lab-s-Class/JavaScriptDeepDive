@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li id="banana">Apple</li>
+    <li id="banana">Banana</li>
+    <li id="banana">Orange</li>
+</ul>
+<script>
+  //getElementById 메서드는 언제나 단 하나의 요소 노드를 반환합니다.
+  //첫번째 li 요소가 파싱되어 생성된 요소 노드가 반환됩니다.
+  const $elem = document.getElementById('banana');
+
+  //취득한 요소 노드의 style.color 프로퍼티 값을 변경합니다.
+  $elem.style.color = 'red';
+</script>
+</body>
+</html>

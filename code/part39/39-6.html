@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="foo"></div>
+
+<script>
+    //id값과 동일한 이름의 전역 변수가 암묵적으로 선언되고, 해당 노드 객체가 할당됩니다.
+  const $elem = document.getElementById('grape');
+
+  //취득한 요소 노드의 style.color 프로퍼티 값을 변경합니다.
+  $elem.style.color = 'red';
+</script>
+</body>
+</html>
